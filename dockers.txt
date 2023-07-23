@@ -1,0 +1,1 @@
+docker run -p 7474:5432 --name postgres_image -e POSTGRES_PASSWORD=Microlab -e POSTGRES_USER=smarthome -e POSTGRES_DB=smarthome -d postgres
